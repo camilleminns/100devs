@@ -1,0 +1,263 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    font-family: 'Calibri', 'Helvetica', sans-serif;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+  font-family: 'Oswald', 'Arial', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav>* {
+    float: left;
+    width: 33.3333%;
+}
+
+.main-nav .links a {
+    display: inline-block;
+}
+
+.left, .right {
+	width: 50%;
+	padding: 0 30px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+footer .left {
+	width: 85%;
+	padding: 0;
+}
+
+footer .right {
+	width: 15%;
+	padding: 0;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+nav {
+    padding: 30px 50px;
+    background-color: #66768A;
+}
+
+header {
+	background-color: #66768A;
+}
+
+footer {
+	background-color: #161F2A;
+	padding: 30px 50px;
+}
+
+footer * {
+	font-family: 'Calibri', 'Helvetica', sans-serif;
+	color: white;
+	font-weight: bold;
+}
+
+footer > * section {
+	margin-bottom: 20px;
+}
+
+.main-nav .links a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+}
+
+.donate {
+    text-align: right;
+}
+
+.btn {
+	width: 180px;
+	margin: 30px auto;
+	color: black;
+	display: inline-block;
+	padding: 20px 30px;
+	border: 1px solid black;
+	font-family: 'Oswald', 'Arial', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.cta-btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px 8px;
+    background-color: white;
+    color: #66768A;
+    border-radius: 5px;
+}
+
+.hero {
+    min-height: 80vh;
+		padding: 0 15%;
+		padding-top: 80px;
+    color: white;
+    text-align: center;
+		background-color: #66768A;
+}
+
+.hero-h {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.hero-p {
+    font-family: 'Oswald', 'Arial', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin: 50px auto;
+}
+
+.hero-v {
+	color: #DBDFE2;
+	font-size: 1.5rem;
+}
+
+.placeholder {
+	font-style: italic;
+	font-weight: bold;
+	display: block;
+	color: #404452;
+	margin: 40px auto;
+}
+
+main > section {
+	padding: 100px 10%;
+	text-align: center;
+	margin: auto;
+}
+
+.services {
+	background-color: #DBDFE2;
+}
+
+.section-h {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+h2.section-h {
+	font-size: 2rem;
+}
+
+h3.section-h {
+	font-size: 1.25rem;
+}
+
+h6.section-h {
+	font-size: 1rem;
+	color: #516072;
+	margin-bottom: 5px;
+}
+
+.why, .volunteer {
+	width: 60%;
+}
+
+main section p {
+	font-size: 1.2rem;
+	line-height: 1.15;
+}
+
+.top-img {
+	margin: 30px auto;
+	width: 80%;
+	min-height: 200px;
+	background: #66768A;
+}
+
+.services p {
+	font-size: 1rem;
+}
+
+footer .links {
+	display: inline-block;
+}
+
+footer .links a {
+	margin-right: 20px;
+}
+
+.social {
+	font-size: 1.5rem;
+}
+
+.contact strong {
+	text-transform: uppercase;
+}
+
+.contact p {
+	font-weight: normal;
+	margin-bottom: 10px;
+	line-height: 1.25;
+}
+
+.copyright img, .logo img {
+	max-width: 32px;
+	height: auto;
+}
+
+.logo {
+	text-align: center;
+}
+
+.copyright .right {
+	text-align: right;
+}
+
+.copyright {
+	line-height: 32px;
+	padding: 20px 0;
+	border-top: 1px solid white;
+}
